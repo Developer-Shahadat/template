@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Charm', cursive;
+    font-family: 'Rancho', cursive;
+    font-family: 'Satisfy', cursive;
+}
+header{
+	background-color: #f1c40f;
+	height: 105px;
+}
+.logo{
+	width: 35%;
+	float: left;
+}
+.logo img{
+	width: 120px;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.menu{
+	width: 65%;
+	overflow: hidden;
+}
+.menu nav ul li{
+	float: left;
+	margin-right: 20px;
+	padding: 15px 15px;
+	list-style-type: none;
+	margin-top: 23px;
+}
+.menu nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 700;
+	background-color: black;
+	padding: 15px 25px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
+.menu nav ul li a:hover{
+	color: black;
+	background-color: white;
+	transition: 1s;
+}
+.body-info{
+	background-image: linear-gradient(#FF0077,#9A0A9F,#2CC7E2);
+	padding: 30px 200px;
+	text-align: center;
+}
+.body-info h1{
+	font-size: 50px;
+	color: white;
+	margin-bottom: 30px;
+}
+.span{
+	color: blue;
+	background-color: yellow;
+	padding: 15px;
+	font-size: 55px;
+	border-radius: 50px;
+
+}
+.body-info p{
+	text-align: justify;
+	color: white;
+	font-size: 18px;
+	
+}
+.btn button{
+	padding: 15px 29px;
+	font-size: 35px;
+	color: white;
+	background-color: #341f97;
+	border: none;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
